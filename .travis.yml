@@ -6,6 +6,7 @@ python:
   - 3.8
 
 install:
+ - git clone https://github.com/wer310/apk.git
   - sudo apt -y install python3-distutils
   - sudo apt -y install python3-pip
   - sudo apt install -y git
